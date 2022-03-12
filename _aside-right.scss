@@ -1,0 +1,84 @@
+section {
+  .aside-right {
+    overflow: auto;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    .diary {
+      height: 35%;
+      width: 87%;
+      border: 2px solid #fff;
+      margin: 24px 21px 20px 24px;
+    }
+    .rows {
+      height: 30%;
+      margin: 24px 35px 30px 35px;
+      :nth-child(1) {
+        border: 2px solid #fff;
+        width: 100%;
+        height: 20%;
+        margin-top: 24px;
+      }
+      :nth-child(2) {
+        border: 2px solid #fff;
+        width: 100%;
+        height: 20%;
+        margin-top: 24px;
+      }
+      :nth-child(3) {
+        border: 2px solid #fff;
+        width: 100%;
+        height: 20%;
+        margin-top: 24px;
+      }
+    }
+    .row {
+      height: 35%;
+      width: 100%;
+      .big-row {
+        border: 2px solid #fff;
+        width: 88%;
+        margin-left: 24px;
+        height: 25%;
+      }
+      .littel-row {
+        height: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 24px 15px 0px 24px;
+        :nth-child(1) {
+          border: 2px solid #fff;
+          height: 65%;
+          width: 30%;
+        }
+        :nth-child(2) {
+          border: 2px solid #fff;
+          height: 65%;
+          width: 30%;
+        }
+        :nth-child(3) {
+          border: 2px solid #fff;
+          height: 65%;
+          width: 30%;
+        }
+      }
+      .two-row{
+        height: 35%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        :nth-child(1){
+          border: 2px solid #fff;
+          height: 60%;
+          width: 40%;
+        }
+        :nth-child(2){
+          border: 2px solid #fff;
+          height: 60%;
+          width: 40%;
+        }
+      }
+    }
+  }
+}
